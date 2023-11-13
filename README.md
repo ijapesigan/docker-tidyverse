@@ -8,6 +8,8 @@ Ivan Jacob Agaloos Pesigan
 
 [![Make
 Project](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/make.yml)
+[![Docker Build and Push
+\[amd64/arm64\]](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-amd64-arm64.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-amd64-arm64.yml)
 [![Docker Build and Push \[amd64/arm64\]
 (Daily)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-daily-amd64-arm64.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-daily-amd64-arm64.yml)
 [![Shell
