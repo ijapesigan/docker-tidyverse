@@ -26,7 +26,3 @@ install2.r --error --skipinstalled -n -1 \
     RPostgres    \
     RSQLite      \
     fst
-
-## a bridge to far? -- brings in another 60 packages
-install2.r --error --skipinstalled -n -1 \
-    tidymodels
