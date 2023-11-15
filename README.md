@@ -19,7 +19,8 @@ Check](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/shellche
 ## Description
 
 A Docker container for `R` projects based on the [Rocker
-Project](https://rocker-project.org/) with document processing programs.
+Project](https://rocker-project.org/) with tidyverse for linux/amd64 and
+linux/arm64 architectures.
 
 ## Docker Container
 

@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 
 ## Description
 
-A Docker container for `R` projects based on the [Rocker Project](https://rocker-project.org/) with document processing programs.
+A Docker container for `R` projects based on the [Rocker Project](https://rocker-project.org/) with tidyverse for linux/amd64 and linux/arm64 architectures.
 
 ## Docker Container
 
