@@ -4,7 +4,7 @@
 
 set -e
 
-## tidyverse
+# tidyverse
 install2.r --error --skipinstalled -n -1 \
     tidyverse   \
     devtools    \
@@ -12,17 +12,3 @@ install2.r --error --skipinstalled -n -1 \
     BiocManager \
     vroom       \
     gert
-
-## dplyr database backends
-install2.r --error --skipinstalled -n -1 \
-    arrow        \
-    dbplyr       \
-    DBI          \
-    dtplyr       \
-    duckdb       \
-    nycflights13 \
-    Lahman       \
-    RMariaDB     \
-    RPostgres    \
-    RSQLite      \
-    fst
