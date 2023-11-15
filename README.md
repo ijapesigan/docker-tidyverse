@@ -27,7 +27,7 @@ linux/arm64 architectures.
 To launch `Rstudio Server`, run the following.
 
 ``` bash
-docker run --rm -ti -e PASSWORD=yourpassword -p 127.0.0.1:8787:8787 ijapesigan/tidyverse
+docker run --rm -ti -e PASSWORD=yourpassword -p 127.0.0.1:8787:8787 ijapesigan/tidyverse:main
 ```
 
 Open `http://localhost:8787` on your web browser to launch
