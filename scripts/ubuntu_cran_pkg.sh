@@ -12,3 +12,7 @@ install2.r --error --skipinstalled -n -1 \
     BiocManager \
     vroom       \
     gert
+
+# DT
+install2.r --error --skipinstalled -n -1 \
+    DT
