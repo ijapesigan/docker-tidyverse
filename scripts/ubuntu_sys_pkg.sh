@@ -34,5 +34,4 @@ apt_install                    \
     unixodbc-dev
 
 apt_install                    \
-    ghostscript                \
-    imagemagick
+    poppler-utils
