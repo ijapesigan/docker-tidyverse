@@ -32,6 +32,3 @@ apt_install                    \
     libtiff5-dev               \
     libjpeg-dev                \
     unixodbc-dev
-
-apt_install                    \
-    poppler-utils
