@@ -32,3 +32,8 @@ apt_install                    \
     libtiff5-dev               \
     libjpeg-dev                \
     unixodbc-dev
+
+# etc
+apt_install    \
+    pkg-config \
+    cmake
