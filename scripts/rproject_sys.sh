@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# based on https://raw.githubusercontent.com/rocker-org/rocker-versioned2/master/scripts/install_tidyverse.sh
-
 set -e
 
 # a function to install apt packages only if they are not installed
@@ -14,26 +12,16 @@ function apt_install() {
     fi
 }
 
+# rProject
 apt_install                    \
-    libxml2-dev                \
-    libcairo2-dev              \
-    libgit2-dev                \
-    default-libmysqlclient-dev \
-    libpq-dev                  \
-    libsasl2-dev               \
-    libsqlite3-dev             \
-    libssh2-1-dev              \
-    libxtst6                   \
     libcurl4-openssl-dev       \
+    libxml2-dev                \
+    libssl-dev                 \
+    libfontconfig1-dev         \
     libharfbuzz-dev            \
     libfribidi-dev             \
+    libgit2-dev                \
     libfreetype6-dev           \
     libpng-dev                 \
     libtiff5-dev               \
-    libjpeg-dev                \
-    unixodbc-dev
-
-# etc
-apt_install    \
-    pkg-config \
-    cmake
+    libjpeg-dev
