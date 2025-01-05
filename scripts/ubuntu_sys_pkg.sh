@@ -33,6 +33,20 @@ apt_install                    \
     libjpeg-dev                \
     unixodbc-dev
 
+# rProject
+apt_install                    \
+    libcurl4-openssl-dev       \
+    libxml2-dev                \
+    libssl-dev                 \
+    libfontconfig1-dev         \
+    libharfbuzz-dev            \
+    libfribidi-dev             \
+    libgit2-dev                \
+    libfreetype6-dev           \
+    libpng-dev                 \
+    libtiff5-dev               \
+    libjpeg-dev
+
 # etc
 apt_install    \
     pkg-config \
