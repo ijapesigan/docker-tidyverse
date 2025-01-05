@@ -1,4 +1,4 @@
-FROM ijapesigan/tinytex:main
+FROM rocker/r-ver:latest
 
 ADD scripts /usr/src/local/src
 RUN cd /usr/src/local/src     && \
