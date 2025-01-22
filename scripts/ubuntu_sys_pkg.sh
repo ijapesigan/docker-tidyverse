@@ -31,7 +31,8 @@ apt_install                    \
     libpng-dev                 \
     libtiff5-dev               \
     libjpeg-dev                \
-    unixodbc-dev
+    unixodbc-dev               \
+    xz-utils
 
 # etc
 apt_install    \
