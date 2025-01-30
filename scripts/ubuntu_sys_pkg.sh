@@ -13,3 +13,28 @@ function apt_install() {
         apt-get install -y --no-install-recommends "$@"
     fi
 }
+
+apt_install \
+    libxml2-dev \
+    libcairo2-dev \
+    libgit2-dev \
+    default-libmysqlclient-dev \
+    libpq-dev \
+    libsasl2-dev \
+    libsqlite3-dev \
+    libssh2-1-dev \
+    libxtst6 \
+    libcurl4-openssl-dev \
+    libharfbuzz-dev \
+    libfribidi-dev \
+    libfreetype6-dev \
+    libpng-dev \
+    libtiff5-dev \
+    libjpeg-dev \
+    unixodbc-dev \
+    xz-utils
+
+# etc
+apt_install \
+    pkg-config \
+    cmake
