@@ -38,4 +38,5 @@ apt_install \
 apt_install \
     pkg-config \
     cmake \
-    build-essential
+    build-essential \
+    libssl-dev
