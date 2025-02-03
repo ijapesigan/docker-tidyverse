@@ -37,4 +37,5 @@ apt_install \
 # etc
 apt_install \
     pkg-config \
-    cmake
+    cmake \
+    build-essential
