@@ -6,11 +6,11 @@ set -e
 
 # tidyverse
 install2.r --error --skipinstalled -n -1 \
-    tidyverse   \
-    devtools    \
-    rmarkdown   \
+    tidyverse \
+    devtools \
+    rmarkdown \
     BiocManager \
-    vroom       \
+    vroom \
     gert
 
 # DT
