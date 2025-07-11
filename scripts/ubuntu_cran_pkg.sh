@@ -16,3 +16,8 @@ install2.r --error --skipinstalled -n -1 \
 # DT
 install2.r --error --skipinstalled -n -1 \
     DT
+
+# V8
+
+install2.r --error --skipinstalled -n -1 \
+    V8
