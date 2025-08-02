@@ -1,4 +1,4 @@
-FROM rocker/r-ver:latest
+FROM ijapesigan/tidyverse-dependencies:latest
 
 ADD scripts /usr/src/local/src
 RUN cd /usr/src/local/src     && \
