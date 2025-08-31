@@ -1,4 +1,4 @@
-FROM ijapesigan/docs-bayes:latest
+FROM ijapesigan/docs-rproject:latest
 
 ADD scripts /usr/src/local/src
 RUN cd /usr/src/local/src     && \
