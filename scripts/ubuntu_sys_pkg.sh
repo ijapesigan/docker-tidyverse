@@ -32,8 +32,9 @@ apt_install \
     libtiff5-dev \
     libjpeg-dev \
     unixodbc-dev \
+    libuv1-dev \
     xz-utils
-    
+
 # etc
 apt_install \
     pkg-config \
