@@ -5,6 +5,8 @@ name: Docker Build and Push Tidyverse [multi] (Daily)
 on:
   schedule:
     - cron: "0 0 * * *"
+  repository_dispatch:
+    types: [base-image-built]
   workflow_dispatch:
 
 env:
@@ -141,3 +143,11 @@ jobs:
         run: |
           docker buildx imagetools inspect ${{ env.DOCKER_HUB_REPO }}:latest
           docker buildx imagetools inspect ${{ env.GHCR_REPO }}:latest
+
+      - name: Trigger the next image
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer ${{ secrets.PAT }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/ijapesigan/docker-dplyr/dispatches \
+            -d '{"event_type":"base-image-built"}'
