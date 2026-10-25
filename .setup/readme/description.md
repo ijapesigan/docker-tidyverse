@@ -1,0 +1,1 @@
+The base of the daily chain (`ijapesigan/tidyverse` to `ijapesigan/docs`): [Rocker](https://rocker-project.org/)'s `rocker/r-ver` with the tidyverse, devtools, rmarkdown, and rProject. Its daily build starts `ijapesigan/dplyr`.

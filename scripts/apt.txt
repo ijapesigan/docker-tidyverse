@@ -1,0 +1,11 @@
+# System packages wanted, one per line (install-apt.sh): tools, and
+# libraries no R package declares. R packages' system libraries are
+# looked up by install-cran.sh.
+
+# tools for building R packages from source
+build-essential
+pkg-config
+xz-utils
+
+# kept from the old list: no R package here declares it
+libxtst6

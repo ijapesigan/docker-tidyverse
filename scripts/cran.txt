@@ -1,0 +1,11 @@
+# CRAN packages wanted, one per line, never their dependencies
+# (install-cran.sh; their system libraries are looked up by pak)
+
+tidyverse
+devtools
+rmarkdown
+BiocManager
+vroom
+gert
+DT
+V8
