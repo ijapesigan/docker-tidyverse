@@ -6,17 +6,11 @@ scripts/github.txt, or .setup/scripts/project.R instead. -->
 # ijapesigan/tidyverse
 
 <!-- badges: start -->
-
-[![Docker Build and Push Tidyverse \[multi\]
-(Daily)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-daily-multi-tidyverse.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-daily-multi-tidyverse.yml)
-[![Docker Build and Push
-\[multi\]](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-multi.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-multi.yml)
-[![Make
-Project](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/make.yml)
-[![Non-ASCII
-Check](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/non-ascii-check.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/non-ascii-check.yml)
-[![Shell
-Check](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/shellcheck.yml)
+[![Make Project](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/make.yml)
+[![Docker Build and Push Tidyverse [multi] (Daily)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-daily-multi-tidyverse.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-daily-multi-tidyverse.yml)
+[![Docker Build and Push [multi]](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-multi.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/docker-build-push-multi.yml)
+[![Non-ASCII Check](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/non-ascii-check.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/non-ascii-check.yml)
+[![Shell Check](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/ijapesigan/docker-tidyverse/actions/workflows/shellcheck.yml)
 <!-- badges: end -->
 
 ## Description
